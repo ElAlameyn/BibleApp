@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5172CCD2A88DF330083118C /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = B5172CCC2A88DF330083118C /* SwiftSoup */; };
+		B54A3A9929FBA690000835A2 /* BibleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54A3A9829FBA690000835A2 /* BibleAppApp.swift */; };
+		B54A3A9B29FBA690000835A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54A3A9A29FBA690000835A2 /* ContentView.swift */; };
+		B54A3A9D29FBA692000835A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B54A3A9C29FBA692000835A2 /* Assets.xcassets */; };
+		B54A3AA029FBA692000835A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B54A3A9F29FBA692000835A2 /* Preview Assets.xcassets */; };
+		B54A3AAA29FBA692000835A2 /* BibleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54A3AA929FBA692000835A2 /* BibleAppTests.swift */; };
+		B54A3AB429FBA692000835A2 /* BibleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54A3AB329FBA692000835A2 /* BibleAppUITests.swift */; };
+		B54A3AB629FBA692000835A2 /* BibleAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54A3AB529FBA692000835A2 /* BibleAppUITestsLaunchTests.swift */; };
+		B54A3AC429FBA6C8000835A2 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = B54A3AC329FBA6C8000835A2 /* ComposableArchitecture */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B54A3AA629FBA692000835A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B54A3A8D29FBA690000835A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B54A3A9429FBA690000835A2;
+			remoteInfo = BibleApp;
+		};
+		B54A3AB029FBA692000835A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B54A3A8D29FBA690000835A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B54A3A9429FBA690000835A2;
+			remoteInfo = BibleApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B54A3A9529FBA690000835A2 /* BibleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BibleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B54A3A9829FBA690000835A2 /* BibleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleAppApp.swift; sourceTree = "<group>"; };
+		B54A3A9A29FBA690000835A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B54A3A9C29FBA692000835A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B54A3A9F29FBA692000835A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B54A3AA529FBA692000835A2 /* BibleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BibleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B54A3AA929FBA692000835A2 /* BibleAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleAppTests.swift; sourceTree = "<group>"; };
+		B54A3AAF29FBA692000835A2 /* BibleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BibleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B54A3AB329FBA692000835A2 /* BibleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleAppUITests.swift; sourceTree = "<group>"; };
+		B54A3AB529FBA692000835A2 /* BibleAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B54A3A9229FBA690000835A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B54A3AC429FBA6C8000835A2 /* ComposableArchitecture in Frameworks */,
+				B5172CCD2A88DF330083118C /* SwiftSoup in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54A3AA229FBA692000835A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54A3AAC29FBA692000835A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B54A3A8C29FBA690000835A2 = {
+			isa = PBXGroup;
+			children = (
+				B54A3A9729FBA690000835A2 /* BibleApp */,
+				B54A3AA829FBA692000835A2 /* BibleAppTests */,
+				B54A3AB229FBA692000835A2 /* BibleAppUITests */,
+				B54A3A9629FBA690000835A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B54A3A9629FBA690000835A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B54A3A9529FBA690000835A2 /* BibleApp.app */,
+				B54A3AA529FBA692000835A2 /* BibleAppTests.xctest */,
+				B54A3AAF29FBA692000835A2 /* BibleAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B54A3A9729FBA690000835A2 /* BibleApp */ = {
+			isa = PBXGroup;
+			children = (
+				B54A3A9829FBA690000835A2 /* BibleAppApp.swift */,
+				B54A3A9A29FBA690000835A2 /* ContentView.swift */,
+				B54A3A9C29FBA692000835A2 /* Assets.xcassets */,
+				B54A3A9E29FBA692000835A2 /* Preview Content */,
+			);
+			path = BibleApp;
+			sourceTree = "<group>";
+		};
+		B54A3A9E29FBA692000835A2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B54A3A9F29FBA692000835A2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B54A3AA829FBA692000835A2 /* BibleAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B54A3AA929FBA692000835A2 /* BibleAppTests.swift */,
+			);
+			path = BibleAppTests;
+			sourceTree = "<group>";
+		};
+		B54A3AB229FBA692000835A2 /* BibleAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B54A3AB329FBA692000835A2 /* BibleAppUITests.swift */,
+				B54A3AB529FBA692000835A2 /* BibleAppUITestsLaunchTests.swift */,
+			);
+			path = BibleAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B54A3A9429FBA690000835A2 /* BibleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B54A3AB929FBA692000835A2 /* Build configuration list for PBXNativeTarget "BibleApp" */;
+			buildPhases = (
+				B54A3A9129FBA690000835A2 /* Sources */,
+				B54A3A9229FBA690000835A2 /* Frameworks */,
+				B54A3A9329FBA690000835A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BibleApp;
+			packageProductDependencies = (
+				B54A3AC329FBA6C8000835A2 /* ComposableArchitecture */,
+				B5172CCC2A88DF330083118C /* SwiftSoup */,
+			);
+			productName = BibleApp;
+			productReference = B54A3A9529FBA690000835A2 /* BibleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B54A3AA429FBA692000835A2 /* BibleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B54A3ABC29FBA692000835A2 /* Build configuration list for PBXNativeTarget "BibleAppTests" */;
+			buildPhases = (
+				B54A3AA129FBA692000835A2 /* Sources */,
+				B54A3AA229FBA692000835A2 /* Frameworks */,
+				B54A3AA329FBA692000835A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B54A3AA729FBA692000835A2 /* PBXTargetDependency */,
+			);
+			name = BibleAppTests;
+			productName = BibleAppTests;
+			productReference = B54A3AA529FBA692000835A2 /* BibleAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B54A3AAE29FBA692000835A2 /* BibleAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B54A3ABF29FBA692000835A2 /* Build configuration list for PBXNativeTarget "BibleAppUITests" */;
+			buildPhases = (
+				B54A3AAB29FBA692000835A2 /* Sources */,
+				B54A3AAC29FBA692000835A2 /* Frameworks */,
+				B54A3AAD29FBA692000835A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B54A3AB129FBA692000835A2 /* PBXTargetDependency */,
+			);
+			name = BibleAppUITests;
+			productName = BibleAppUITests;
+			productReference = B54A3AAF29FBA692000835A2 /* BibleAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B54A3A8D29FBA690000835A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B54A3A9429FBA690000835A2 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					B54A3AA429FBA692000835A2 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = B54A3A9429FBA690000835A2;
+					};
+					B54A3AAE29FBA692000835A2 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = B54A3A9429FBA690000835A2;
+					};
+				};
+			};
+			buildConfigurationList = B54A3A9029FBA690000835A2 /* Build configuration list for PBXProject "BibleApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B54A3A8C29FBA690000835A2;
+			packageReferences = (
+				B54A3AC229FBA6C8000835A2 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				B5172CCB2A88DF330083118C /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+			);
+			productRefGroup = B54A3A9629FBA690000835A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B54A3A9429FBA690000835A2 /* BibleApp */,
+				B54A3AA429FBA692000835A2 /* BibleAppTests */,
+				B54A3AAE29FBA692000835A2 /* BibleAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B54A3A9329FBA690000835A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B54A3AA029FBA692000835A2 /* Preview Assets.xcassets in Resources */,
+				B54A3A9D29FBA692000835A2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54A3AA329FBA692000835A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54A3AAD29FBA692000835A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B54A3A9129FBA690000835A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B54A3A9B29FBA690000835A2 /* ContentView.swift in Sources */,
+				B54A3A9929FBA690000835A2 /* BibleAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54A3AA129FBA692000835A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B54A3AAA29FBA692000835A2 /* BibleAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54A3AAB29FBA692000835A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B54A3AB629FBA692000835A2 /* BibleAppUITestsLaunchTests.swift in Sources */,
+				B54A3AB429FBA692000835A2 /* BibleAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B54A3AA729FBA692000835A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B54A3A9429FBA690000835A2 /* BibleApp */;
+			targetProxy = B54A3AA629FBA692000835A2 /* PBXContainerItemProxy */;
+		};
+		B54A3AB129FBA692000835A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B54A3A9429FBA690000835A2 /* BibleApp */;
+			targetProxy = B54A3AB029FBA692000835A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B54A3AB729FBA692000835A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B54A3AB829FBA692000835A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B54A3ABA29FBA692000835A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BibleApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 585BX3KVC6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = artem.very.well.BibleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B54A3ABB29FBA692000835A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BibleApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 585BX3KVC6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = artem.very.well.BibleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B54A3ABD29FBA692000835A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 585BX3KVC6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = artem.very.well.BibleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BibleApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BibleApp";
+			};
+			name = Debug;
+		};
+		B54A3ABE29FBA692000835A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 585BX3KVC6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = artem.very.well.BibleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BibleApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BibleApp";
+			};
+			name = Release;
+		};
+		B54A3AC029FBA692000835A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 585BX3KVC6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = artem.very.well.BibleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BibleApp;
+			};
+			name = Debug;
+		};
+		B54A3AC129FBA692000835A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 585BX3KVC6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = artem.very.well.BibleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BibleApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B54A3A9029FBA690000835A2 /* Build configuration list for PBXProject "BibleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B54A3AB729FBA692000835A2 /* Debug */,
+				B54A3AB829FBA692000835A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B54A3AB929FBA692000835A2 /* Build configuration list for PBXNativeTarget "BibleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B54A3ABA29FBA692000835A2 /* Debug */,
+				B54A3ABB29FBA692000835A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B54A3ABC29FBA692000835A2 /* Build configuration list for PBXNativeTarget "BibleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B54A3ABD29FBA692000835A2 /* Debug */,
+				B54A3ABE29FBA692000835A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B54A3ABF29FBA692000835A2 /* Build configuration list for PBXNativeTarget "BibleAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B54A3AC029FBA692000835A2 /* Debug */,
+				B54A3AC129FBA692000835A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B5172CCB2A88DF330083118C /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		B54A3AC229FBA6C8000835A2 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.52.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B5172CCC2A88DF330083118C /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5172CCB2A88DF330083118C /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+		B54A3AC329FBA6C8000835A2 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B54A3AC229FBA6C8000835A2 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B54A3A8D29FBA690000835A2 /* Project object */;
+}
