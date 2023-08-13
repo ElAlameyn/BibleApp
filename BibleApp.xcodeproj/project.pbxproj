@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		B5172CCD2A88DF330083118C /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = B5172CCC2A88DF330083118C /* SwiftSoup */; };
 		B54A3A9929FBA690000835A2 /* BibleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54A3A9829FBA690000835A2 /* BibleAppApp.swift */; };
-		B54A3A9B29FBA690000835A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54A3A9A29FBA690000835A2 /* ContentView.swift */; };
+		B54A3A9B29FBA690000835A2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54A3A9A29FBA690000835A2 /* HomeView.swift */; };
 		B54A3A9D29FBA692000835A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B54A3A9C29FBA692000835A2 /* Assets.xcassets */; };
 		B54A3AA029FBA692000835A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B54A3A9F29FBA692000835A2 /* Preview Assets.xcassets */; };
 		B54A3AAA29FBA692000835A2 /* BibleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54A3AA929FBA692000835A2 /* BibleAppTests.swift */; };
@@ -36,9 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B5172CCE2A88E1D70083118C /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B54A3A9529FBA690000835A2 /* BibleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BibleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B54A3A9829FBA690000835A2 /* BibleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleAppApp.swift; sourceTree = "<group>"; };
-		B54A3A9A29FBA690000835A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B54A3A9A29FBA690000835A2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		B54A3A9C29FBA692000835A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B54A3A9F29FBA692000835A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B54A3AA529FBA692000835A2 /* BibleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BibleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,6 +79,7 @@
 		B54A3A8C29FBA690000835A2 = {
 			isa = PBXGroup;
 			children = (
+				B5172CCE2A88E1D70083118C /* MyPlayground.playground */,
 				B54A3A9729FBA690000835A2 /* BibleApp */,
 				B54A3AA829FBA692000835A2 /* BibleAppTests */,
 				B54A3AB229FBA692000835A2 /* BibleAppUITests */,
@@ -99,7 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				B54A3A9829FBA690000835A2 /* BibleAppApp.swift */,
-				B54A3A9A29FBA690000835A2 /* ContentView.swift */,
+				B54A3A9A29FBA690000835A2 /* HomeView.swift */,
 				B54A3A9C29FBA692000835A2 /* Assets.xcassets */,
 				B54A3A9E29FBA692000835A2 /* Preview Content */,
 			);
@@ -269,7 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B54A3A9B29FBA690000835A2 /* ContentView.swift in Sources */,
+				B54A3A9B29FBA690000835A2 /* HomeView.swift in Sources */,
 				B54A3A9929FBA690000835A2 /* BibleAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
