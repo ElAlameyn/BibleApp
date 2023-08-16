@@ -11,19 +11,15 @@ struct HomeView: View {
   var body: some View {
     NavigationStack {
       ZStack {
-
         Color.gray.opacity(0.3)
           .opacity(0.3)
           .ignoresSafeArea()
 
         VStack {
           Image("bible")
-            .resizable()
-            .aspectRatio(contentMode: .fill)
-            .frame(width: 320, height: 240)
-            .cornerRadius(16)
-            .clipped()
-            .padding()
+            .homeScreenDefaultPrayersConfiguration(
+              .init(width: 320, height: 240)
+            )
             .overlay(
               LinearGradient(
                 stops: [
@@ -33,7 +29,7 @@ struct HomeView: View {
                 startPoint: UnitPoint(x: 0.5, y: 0),
                 endPoint: UnitPoint(x: 0.5, y: 1)
               )
-              .frame(width: 320,height: 240)
+              .frame(width: 320, height: 240)
               .clipped()
               .cornerRadius(16)
               .overlay(alignment: .leading) {
@@ -50,6 +46,24 @@ struct HomeView: View {
                 }
               }
             )
+            .onTapGesture {
+
+            }
+
+          Text("Молитвенные правила")
+            .font(.title)
+            .bold()
+            .padding(.leading, -40)
+
+          ScrollView(.horizontal, showsIndicators: false) {
+            HStack {
+              Image("morning_rule")
+                .homeScreenCellSetup(mainText: "Утреннее\n правило")
+
+              Image("evening_rule")
+                .homeScreenCellSetup(mainText: "Вечернее\n правило")
+            }
+          }
 
           Spacer()
         }

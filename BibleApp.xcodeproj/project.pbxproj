@@ -8,14 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		B5172CCD2A88DF330083118C /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = B5172CCC2A88DF330083118C /* SwiftSoup */; };
-		B54A3A9929FBA690000835A2 /* BibleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54A3A9829FBA690000835A2 /* BibleAppApp.swift */; };
-		B54A3A9B29FBA690000835A2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54A3A9A29FBA690000835A2 /* HomeView.swift */; };
-		B54A3A9D29FBA692000835A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B54A3A9C29FBA692000835A2 /* Assets.xcassets */; };
-		B54A3AA029FBA692000835A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B54A3A9F29FBA692000835A2 /* Preview Assets.xcassets */; };
 		B54A3AAA29FBA692000835A2 /* BibleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54A3AA929FBA692000835A2 /* BibleAppTests.swift */; };
 		B54A3AB429FBA692000835A2 /* BibleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54A3AB329FBA692000835A2 /* BibleAppUITests.swift */; };
 		B54A3AB629FBA692000835A2 /* BibleAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54A3AB529FBA692000835A2 /* BibleAppUITestsLaunchTests.swift */; };
 		B54A3AC429FBA6C8000835A2 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = B54A3AC329FBA6C8000835A2 /* ComposableArchitecture */; };
+		B56DF1FA2A8CB87100DA8503 /* BibleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D8A9742A8A62FF00B2EA82 /* BibleApp.swift */; };
+		B56DF1FD2A8CB8A200DA8503 /* BiblePackage in Frameworks */ = {isa = PBXBuildFile; productRef = B56DF1FC2A8CB8A200DA8503 /* BiblePackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,17 +34,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B5172CCE2A88E1D70083118C /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B54A3A9529FBA690000835A2 /* BibleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BibleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B54A3A9829FBA690000835A2 /* BibleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleAppApp.swift; sourceTree = "<group>"; };
-		B54A3A9A29FBA690000835A2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		B54A3A9C29FBA692000835A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B54A3A9F29FBA692000835A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B54A3AA529FBA692000835A2 /* BibleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BibleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B54A3AA929FBA692000835A2 /* BibleAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleAppTests.swift; sourceTree = "<group>"; };
 		B54A3AAF29FBA692000835A2 /* BibleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BibleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B54A3AB329FBA692000835A2 /* BibleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleAppUITests.swift; sourceTree = "<group>"; };
 		B54A3AB529FBA692000835A2 /* BibleAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B56DF1FB2A8CB89600DA8503 /* BiblePackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = BiblePackage; path = ../PACKAGES/BiblePackage; sourceTree = "<group>"; };
+		B5D8A9742A8A62FF00B2EA82 /* BibleApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BibleApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B56DF1FD2A8CB8A200DA8503 /* BiblePackage in Frameworks */,
 				B54A3AC429FBA6C8000835A2 /* ComposableArchitecture in Frameworks */,
 				B5172CCD2A88DF330083118C /* SwiftSoup in Frameworks */,
 			);
@@ -76,14 +72,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B53060F02A8A53C6002F3C71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B54A3A8C29FBA690000835A2 = {
 			isa = PBXGroup;
 			children = (
-				B5172CCE2A88E1D70083118C /* MyPlayground.playground */,
-				B54A3A9729FBA690000835A2 /* BibleApp */,
+				B5D8A9742A8A62FF00B2EA82 /* BibleApp.swift */,
+				B56DF1FB2A8CB89600DA8503 /* BiblePackage */,
 				B54A3AA829FBA692000835A2 /* BibleAppTests */,
 				B54A3AB229FBA692000835A2 /* BibleAppUITests */,
 				B54A3A9629FBA690000835A2 /* Products */,
+				B53060F02A8A53C6002F3C71 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,25 +99,6 @@
 				B54A3AAF29FBA692000835A2 /* BibleAppUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		B54A3A9729FBA690000835A2 /* BibleApp */ = {
-			isa = PBXGroup;
-			children = (
-				B54A3A9829FBA690000835A2 /* BibleAppApp.swift */,
-				B54A3A9A29FBA690000835A2 /* HomeView.swift */,
-				B54A3A9C29FBA692000835A2 /* Assets.xcassets */,
-				B54A3A9E29FBA692000835A2 /* Preview Content */,
-			);
-			path = BibleApp;
-			sourceTree = "<group>";
-		};
-		B54A3A9E29FBA692000835A2 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				B54A3A9F29FBA692000835A2 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		B54A3AA829FBA692000835A2 /* BibleAppTests */ = {
@@ -152,6 +137,7 @@
 			packageProductDependencies = (
 				B54A3AC329FBA6C8000835A2 /* ComposableArchitecture */,
 				B5172CCC2A88DF330083118C /* SwiftSoup */,
+				B56DF1FC2A8CB8A200DA8503 /* BiblePackage */,
 			);
 			productName = BibleApp;
 			productReference = B54A3A9529FBA690000835A2 /* BibleApp.app */;
@@ -245,8 +231,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B54A3AA029FBA692000835A2 /* Preview Assets.xcassets in Resources */,
-				B54A3A9D29FBA692000835A2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,8 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B54A3A9B29FBA690000835A2 /* HomeView.swift in Sources */,
-				B54A3A9929FBA690000835A2 /* BibleAppApp.swift in Sources */,
+				B56DF1FA2A8CB87100DA8503 /* BibleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,7 +413,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BibleApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 585BX3KVC6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -459,7 +442,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BibleApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 585BX3KVC6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -627,6 +610,10 @@
 			isa = XCSwiftPackageProductDependency;
 			package = B54A3AC229FBA6C8000835A2 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
 			productName = ComposableArchitecture;
+		};
+		B56DF1FC2A8CB8A200DA8503 /* BiblePackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BiblePackage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
