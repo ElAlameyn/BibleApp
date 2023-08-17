@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B5172CCD2A88DF330083118C /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = B5172CCC2A88DF330083118C /* SwiftSoup */; };
 		B54A3AAA29FBA692000835A2 /* BibleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54A3AA929FBA692000835A2 /* BibleAppTests.swift */; };
 		B54A3AB429FBA692000835A2 /* BibleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54A3AB329FBA692000835A2 /* BibleAppUITests.swift */; };
 		B54A3AB629FBA692000835A2 /* BibleAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54A3AB529FBA692000835A2 /* BibleAppUITestsLaunchTests.swift */; };
-		B54A3AC429FBA6C8000835A2 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = B54A3AC329FBA6C8000835A2 /* ComposableArchitecture */; };
 		B56DF1FA2A8CB87100DA8503 /* BibleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D8A9742A8A62FF00B2EA82 /* BibleApp.swift */; };
-		B56DF1FD2A8CB8A200DA8503 /* BiblePackage in Frameworks */ = {isa = PBXBuildFile; productRef = B56DF1FC2A8CB8A200DA8503 /* BiblePackage */; };
+		B5B113D32A8E0E0700846FE7 /* BiblePackage in Frameworks */ = {isa = PBXBuildFile; productRef = B5B113D22A8E0E0700846FE7 /* BiblePackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,9 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B56DF1FD2A8CB8A200DA8503 /* BiblePackage in Frameworks */,
-				B54A3AC429FBA6C8000835A2 /* ComposableArchitecture in Frameworks */,
-				B5172CCD2A88DF330083118C /* SwiftSoup in Frameworks */,
+				B5B113D32A8E0E0700846FE7 /* BiblePackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,9 +131,7 @@
 			);
 			name = BibleApp;
 			packageProductDependencies = (
-				B54A3AC329FBA6C8000835A2 /* ComposableArchitecture */,
-				B5172CCC2A88DF330083118C /* SwiftSoup */,
-				B56DF1FC2A8CB8A200DA8503 /* BiblePackage */,
+				B5B113D22A8E0E0700846FE7 /* BiblePackage */,
 			);
 			productName = BibleApp;
 			productReference = B54A3A9529FBA690000835A2 /* BibleApp.app */;
@@ -212,8 +206,6 @@
 			);
 			mainGroup = B54A3A8C29FBA690000835A2;
 			packageReferences = (
-				B54A3AC229FBA6C8000835A2 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
-				B5172CCB2A88DF330083118C /* XCRemoteSwiftPackageReference "SwiftSoup" */,
 			);
 			productRefGroup = B54A3A9629FBA690000835A2 /* Products */;
 			projectDirPath = "";
@@ -581,37 +573,8 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		B5172CCB2A88DF330083118C /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/scinfu/SwiftSoup";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.0;
-			};
-		};
-		B54A3AC229FBA6C8000835A2 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.52.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
 /* Begin XCSwiftPackageProductDependency section */
-		B5172CCC2A88DF330083118C /* SwiftSoup */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B5172CCB2A88DF330083118C /* XCRemoteSwiftPackageReference "SwiftSoup" */;
-			productName = SwiftSoup;
-		};
-		B54A3AC329FBA6C8000835A2 /* ComposableArchitecture */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B54A3AC229FBA6C8000835A2 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
-			productName = ComposableArchitecture;
-		};
-		B56DF1FC2A8CB8A200DA8503 /* BiblePackage */ = {
+		B5B113D22A8E0E0700846FE7 /* BiblePackage */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = BiblePackage;
 		};
