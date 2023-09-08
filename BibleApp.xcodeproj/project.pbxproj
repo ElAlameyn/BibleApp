@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B519F8632AAB4339009BA786 /* BiblePackage in Frameworks */ = {isa = PBXBuildFile; productRef = B519F8622AAB4339009BA786 /* BiblePackage */; };
 		B54A3AAA29FBA692000835A2 /* BibleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54A3AA929FBA692000835A2 /* BibleAppTests.swift */; };
 		B54A3AB429FBA692000835A2 /* BibleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54A3AB329FBA692000835A2 /* BibleAppUITests.swift */; };
 		B54A3AB629FBA692000835A2 /* BibleAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54A3AB529FBA692000835A2 /* BibleAppUITestsLaunchTests.swift */; };
 		B56DF1FA2A8CB87100DA8503 /* BibleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D8A9742A8A62FF00B2EA82 /* BibleApp.swift */; };
-		B5B113D32A8E0E0700846FE7 /* BiblePackage in Frameworks */ = {isa = PBXBuildFile; productRef = B5B113D22A8E0E0700846FE7 /* BiblePackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,13 +32,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B519F85F2AAB42DF009BA786 /* BiblePackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = BiblePackage; sourceTree = "<group>"; };
 		B54A3A9529FBA690000835A2 /* BibleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BibleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B54A3AA529FBA692000835A2 /* BibleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BibleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B54A3AA929FBA692000835A2 /* BibleAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleAppTests.swift; sourceTree = "<group>"; };
 		B54A3AAF29FBA692000835A2 /* BibleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BibleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B54A3AB329FBA692000835A2 /* BibleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleAppUITests.swift; sourceTree = "<group>"; };
 		B54A3AB529FBA692000835A2 /* BibleAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		B56DF1FB2A8CB89600DA8503 /* BiblePackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = BiblePackage; path = ../PACKAGES/BiblePackage; sourceTree = "<group>"; };
 		B5D8A9742A8A62FF00B2EA82 /* BibleApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BibleApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -47,7 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5B113D32A8E0E0700846FE7 /* BiblePackage in Frameworks */,
+				B519F8632AAB4339009BA786 /* BiblePackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,22 +68,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B53060F02A8A53C6002F3C71 /* Frameworks */ = {
+		B519F85E2AAB42DF009BA786 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
+				B519F85F2AAB42DF009BA786 /* BiblePackage */,
 			);
-			name = Frameworks;
+			name = Packages;
 			sourceTree = "<group>";
 		};
 		B54A3A8C29FBA690000835A2 = {
 			isa = PBXGroup;
 			children = (
 				B5D8A9742A8A62FF00B2EA82 /* BibleApp.swift */,
-				B56DF1FB2A8CB89600DA8503 /* BiblePackage */,
+				B519F85E2AAB42DF009BA786 /* Packages */,
 				B54A3AA829FBA692000835A2 /* BibleAppTests */,
 				B54A3AB229FBA692000835A2 /* BibleAppUITests */,
 				B54A3A9629FBA690000835A2 /* Products */,
-				B53060F02A8A53C6002F3C71 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,7 +131,7 @@
 			);
 			name = BibleApp;
 			packageProductDependencies = (
-				B5B113D22A8E0E0700846FE7 /* BiblePackage */,
+				B519F8622AAB4339009BA786 /* BiblePackage */,
 			);
 			productName = BibleApp;
 			productReference = B54A3A9529FBA690000835A2 /* BibleApp.app */;
@@ -574,7 +574,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		B5B113D22A8E0E0700846FE7 /* BiblePackage */ = {
+		B519F8622AAB4339009BA786 /* BiblePackage */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = BiblePackage;
 		};
